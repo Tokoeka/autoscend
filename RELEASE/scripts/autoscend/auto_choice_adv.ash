@@ -599,6 +599,9 @@ boolean auto_run_choice(int choice, string page)
 		case 1342: // Torpor (Dark Gyffte)
 			bat_reallyPickSkills(20);
 			break;
+		case 1387: // Using The Force (Cosplay Saber)
+			run_choice(-1); //correct choice will have been set via the relevant auto_combatSaber[...] function
+			break;
 		case 1391: // Rationing out Destruction (Kingdom of Exploathing)
 			koe_RationingOutDestruction();
 			break;
